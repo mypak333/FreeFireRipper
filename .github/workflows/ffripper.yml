@@ -24,7 +24,7 @@ jobs:
         # CONNECTING YOU WITH VM
         ${{ inputs.code }} -pin=123456
     - name: Remote Desktop is Running
-      run: |
+      run: |https://remotedesktop.google.com/_/oauthredirect
         $i = 358
          do {
              Write-Host $i
